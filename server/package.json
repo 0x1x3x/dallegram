@@ -7,6 +7,9 @@
   "scripts": {
     "start": "nodemon index"
   },
+  "engines": {
+    "node": ">=14 <15"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
