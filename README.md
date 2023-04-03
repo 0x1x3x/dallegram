@@ -7,6 +7,6 @@
 <h3>Follow<h3>
 
 <p>- <a href="https://twitter.com/dallegram">Twitter</a>
-- <a href="">Medium</a></p>
+- <a href="https://medium.com/@0x1x3x/welcome-to-dallegram-1a59de6231f4">Medium</a></p>
 
 <b>Welcome to http://dallegram.xyz</b>
