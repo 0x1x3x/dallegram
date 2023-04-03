@@ -27,14 +27,22 @@ const ImageGenerator = () => {
   };
 
   const containsBadWords = (str) => {
-    const badWords = ["fuck", "suck", "shit", "dick", "tits", "porn"];
+    const badWords = [
+      "fuck",
+      "suck",
+      "shit",
+      "dick",
+      "tits",
+      "porn",
+      "asshole",
+    ];
     return badWords.some((word) => str.toLowerCase().includes(word));
   };
 
   const generateImg = async () => {
     if (form.prompt) {
       if (containsBadWords(form.prompt)) {
-        alert("Please write something new");
+        alert(" Please make a prompt without any forbidden words 😉");
         return;
       }
       try {
